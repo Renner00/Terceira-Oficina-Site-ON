@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f1cf6f91;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #2a2a2a;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#inicial {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+.centralizar {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#img1 {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 15px auto;
+}
+
+#img2 {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin: 15px auto;
+}
+
+p + img {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.menu {
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
